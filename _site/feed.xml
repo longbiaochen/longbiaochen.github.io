@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>FELIX&#39;S BLOG</title>
+    <description>The world&#39;s mine oyster.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Apr 2015 22:53:36 +0200</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2015 22:53:36 +0200</lastBuildDate>
+    <link>http://longbiaochen.com/</link>
+    <atom:link href="http://longbiaochen.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Apr 2015 00:08:23 +0200</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2015 00:08:23 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Mon, 13 Apr 2015 00:39:25 +0200</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/04/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/13/welcome-to-jekyll.html</guid>
+        <link>http://longbiaochen.com/jekyll/update/2015/04/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://longbiaochen.com/jekyll/update/2015/04/13/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -43,8 +43,8 @@
         <description>
 </description>
         <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://yourdomain.com/2015/04/12/blogging-like-a-hacker.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/04/12/blogging-like-a-hacker.html</guid>
+        <link>http://longbiaochen.com/2015/04/12/blogging-like-a-hacker.html</link>
+        <guid isPermaLink="true">http://longbiaochen.com/2015/04/12/blogging-like-a-hacker.html</guid>
         
         
       </item>

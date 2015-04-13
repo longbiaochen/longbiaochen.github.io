@@ -3,29 +3,29 @@
 ---
 @charset "utf-8";
 
-
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,900,700);
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: Raleway, Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.9;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #333;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #111;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    900px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        900px;
 
 
 
