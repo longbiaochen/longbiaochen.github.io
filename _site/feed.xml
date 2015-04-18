@@ -6,8 +6,8 @@
 </description>
     <link>http://longbiaochen.com/</link>
     <atom:link href="http://longbiaochen.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Apr 2015 00:08:23 +0200</pubDate>
-    <lastBuildDate>Tue, 14 Apr 2015 00:08:23 +0200</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2015 23:38:53 +0200</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2015 23:38:53 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -40,7 +40,7 @@
     
       <item>
         <title>Blogging Like a Hacker</title>
-        <description>
+        <description>&lt;p&gt;cool&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
         <link>http://longbiaochen.com/2015/04/12/blogging-like-a-hacker.html</link>
