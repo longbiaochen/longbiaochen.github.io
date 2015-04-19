@@ -93,12 +93,12 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($text-color, 15%);
+        // color: darken($text-color, 15%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: none;
+        color: darken($text-color, 70%);
+        // text-decoration: none;
     }
 }
 
