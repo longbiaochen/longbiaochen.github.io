@@ -5,9 +5,9 @@ permalink: /research/
 ---
 
 
-- #### [Google Scholar][0] 
-- #### [CV (date)][11]
-<br>
+- [**My Google Scholar Page**][0] 
+- [**My CV**][11]
+<br><br>
 
 1. **Longbiao Chen**, Daqing Zhang, Gang Pan*, Leye Wang, Xiaojuan Ma, Chao Chen, Shijian Li  
 **Container Throughput Estimation Leveraging Ship GPS Traces and Open Data** [[PDF]][1]  

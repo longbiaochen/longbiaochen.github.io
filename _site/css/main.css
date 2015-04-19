@@ -240,7 +240,7 @@ pre {
   padding: 30px 0; }
   .page-content .wrapper {
     margin: 0 auto;
-    max-width: 650px; }
+    max-width: 600px; }
 
 .page-heading {
   font-size: 20px; }
@@ -278,7 +278,8 @@ pre {
       font-size: 32px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 600px; }
   .post-content a {
     text-decoration: underline; }
   .post-content h2 {

@@ -134,7 +134,7 @@
 
     .wrapper{
         margin: 0 auto;
-        max-width: 650px; // Felix: page width
+        max-width: $post-content-width; // Felix 
     }
 }
 
@@ -186,6 +186,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    width: $post-content-width; // Felix: page width
     
     a {
         text-decoration: underline;
