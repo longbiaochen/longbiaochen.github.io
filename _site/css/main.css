@@ -140,6 +140,9 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.site_icon {
+  width: 16px; }
+
 /**
  *   Felix
  */
@@ -173,7 +176,7 @@ pre {
 .site-nav {
   float: left;
   padding-left: 20%;
-  line-height: 70px; }
+  line-height: 40px; }
   .site-nav a {
     font-size: 14px;
     margin-top: 50px;
@@ -240,7 +243,7 @@ pre {
   padding: 30px 0; }
   .page-content .wrapper {
     margin: 0 auto;
-    max-width: 600px; }
+    max-width: 670px; }
 
 .page-heading {
   font-size: 20px; }
@@ -279,7 +282,7 @@ pre {
 
 .post-content {
   margin-bottom: 30px;
-  width: 600px; }
+  width: 670px; }
   .post-content a {
     text-decoration: underline; }
   .post-content h2 {

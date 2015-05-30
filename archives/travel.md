@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel
+title: Travel test
 permalink: /travel/
 ---
 

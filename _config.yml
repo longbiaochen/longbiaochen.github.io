@@ -1,10 +1,9 @@
 # Site settings
-title: FELIX'S BLOG
-email: longbiaochen@icloud.com
+title: Welcome
+email: longbiaochen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The world's mine oyster.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://longbiaochen.com" # the base hostname & protocol for your site
+baseurl: "" 
+url: "http://longbiaochen.com"
 twitter_username: longbiaochen
 github_username:  longbiaochen
 
