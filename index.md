@@ -4,6 +4,16 @@ title: Longbiao Chen (陈龙彪)
 permalink: /
 ---
 
+<div align="center">
+
+### 🔥 GitHub Roast
+
+**GitHub 含金量审判：68.60/100 · NPC**  
+普通账号 · 特征平庸存疑 · 超越 77% 的开发者  
+[来测测你的 GitHub 含金量 👉 githubroast.dev](https://githubroast.dev/u/longbiaochen)
+
+</div>
+
 # **Biography** 
 <br>
 
@@ -97,4 +107,3 @@ The 2013 IEEE International Conference on Cyber, Physical and Social Computing (
 [11]: /files/Resume_20140720.pdf
 [12]: /files/ubicomp-2013.pdf
 [13]: /files/cpscom-2013.pdf
-
