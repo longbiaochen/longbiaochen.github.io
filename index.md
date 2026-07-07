@@ -14,6 +14,10 @@ permalink: /
 
 </div>
 
+### Dev products
+
+- [ChatGPT Delegate for Codex](/dev/chatgpt-delegate/) - delegate research, PRD writing, and web lookup tasks from Codex to ChatGPT Web, then save Markdown locally through MCP.
+
 # **Biography** 
 <br>
 
