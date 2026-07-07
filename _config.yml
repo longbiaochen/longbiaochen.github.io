@@ -3,10 +3,9 @@ title: Welcome
 email: longbiaochen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" 
-url: "http://longbiaochen.com"
+url: "https://longbiaochen.github.io"
 twitter_username: longbiaochen
 github_username:  longbiaochen
 
 # Build settings
 markdown: kramdown
-
