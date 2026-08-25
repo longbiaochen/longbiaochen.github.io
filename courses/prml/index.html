@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> 厦门大学普适计算课题组
+</title>
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/main.css" />     <link href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="厦门大学普适计算课题组 Atom Feed" />   <link rel="alternate" hreflang="en" href="https://longbiao.crowdsensing.cn/./courses/prml/index-en.html">
+
+    <script src="https://longbiao.crowdsensing.cn/theme/js/vue.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/axios.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/lodash.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/httpVueLoader.js"></script>
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <h1>
+ <a href="https://longbiao.crowdsensing.cn/index.html">厦门大学普适计算课题组</a>
+        </h1>
+        <div class="banner-nav-row">
+            <nav>
+<ul>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/index.html">主页</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./publications/index.html">论文</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./patents/index.html">专利</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./demo/index.html">成果</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./courses/index.html">教学</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./lectures/index.html">讲座</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./team/index.html">团队</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./awards/index.html">获奖</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./news/index.html">新闻</a>
+  </li>
+</ul>
+            </nav>
+<div class="nav-lang">
+  <a href="https://longbiao.crowdsensing.cn/./courses/prml/index-en.html" hreflang="en" rel="alternate">
+ English
+  </a>
+</div>
+        </div>
+    </header>
+    <!-- /#banner -->
+<main id="content" class="body">
+  <!-- <h1 class="entry-title">模式识别</h1> -->
+  <!--  -->
+  <!-- <a href="https://longbiao.crowdsensing.cn/./courses/prml/index-en.html" hreflang="en">en</a>
+ -->
+  <h1 id="title">模式识别</h1>
+<div id="hero" class="text-center">
+  <img src="/courses/prml/figures/banner.jpg" class="rounded">
+</div>
+
+<p><br></p>
+<h2><strong>课程概述</strong></h2>
+<p>《说文》中讲到：识，知也；别，分解也。识别就是将对象分门别类地识别出来。模式识别（英语：Pattern Recognition），就是通过计算机用数学技术方法来研究模式的自动处理和判读。本课程面向本科二、三年级学生，介绍模式识别的基本概念及术语，概述模式识别过程，模式识别方法，模式识别的历史现状和发展。课程将从模式识别，讲到深度学习，最后在当今最先进的大模型技术收尾。同时，课程还配备动手实践教程，由浅入深地讲解一系列妙趣横生的模式识别和机器学习案例。通过学习这门课程，同学们不仅能快速入门人工智能的基本原理，还能在真实项目中学以致用，为今后的人工智能学习和研究打下基础。</p>
+<p><br></p>
+<h2><strong>时间地点</strong></h2>
+<ul>
+<li><strong>时间</strong>：1-16周，周四下午7-8节（16:40--18:20）</li>
+<li><strong>地点</strong>：翔安校区学武楼C201</li>
+</ul>
+<p><br></p>
+<h2><strong>考核方式</strong></h2>
+<ul>
+<li><strong>平时表现（20%）</strong>：考勤、课堂表现及课程作业</li>
+<li><strong>课程实验（30%）</strong>：单人完成，产品需求文档，详见课件</li>
+<li><strong>期末（50%）</strong>：闭卷笔试（最后一周，6月5日晚9，10节课）</li>
+</ul>
+<p><br></p>
+<h2><strong>课程实验：基于大模型的AI课程助手</strong></h2>
+<h4><strong>需求</strong></h4>
+<ul>
+<li>开发智能课程助手，实现视频学习场景下的实时内容解析与个性化答疑</li>
+<li>主要功能包括一个课程视频播放，提供“不懂”按钮对当前视频教学内容进行分析、讲解、问答对话</li>
+</ul>
+<h4><strong>模块任务简介</strong></h4>
+<ul>
+<li><strong>A组前端交互 </strong>：视频播放器开发（含时间轴同步）、"不懂"按钮动态触发、解析结果可视化展示</li>
+<li><strong>B组后端服务 </strong>：视频元数据管理、上下文片段提取API、解析结果缓存机制</li>
+<li><strong>C组模型处理 </strong>：视频内容摘要生成、疑问点上下文分析、多模态解析生成</li>
+<li><strong>D组数据工程 </strong>：课程视频切片处理、知识图谱构建、用户行为日志分析</li>
+<li><strong>E组扩展功能 </strong>：语音提问支持、截图问答功能、学习进度分析</li>
+</ul>
+<h4><strong>PRD需求</strong></h4>
+<ul>
+<li><strong>模块背景与目标 </strong>：定位模块在系统架构中的位置、阐明模块需要解决的问题</li>
+<li><strong>需求分析 </strong>：确定功能需求，提出解决策略</li>
+<li><strong>技术方案设计 </strong>：核心技术方案设计，提供技术路线</li>
+<li><strong>创新点设计 </strong>：提出自己的独特想法，展现创新性思维</li>
+<li><strong>Demo内容 </strong>：增加Demo内容（如图片等内容），使得报告内容更加可行，易懂</li>
+</ul>
+<h4><strong>注意事项</strong></h4>
+<ul>
+<li>截止提交时间：**2025年6月22日 23：59 **</li>
+<li>提交内容：PRD文档报告</li>
+<li>提交至厦门大学数字化平台（course.xmu.edu.cn）</li>
+</ul>
+<p><br></p>
+<h2><strong>教材和参考书</strong></h2>
+<ul>
+<li>Christopher M Bishop, <em>Pattern Recognition and Machine Learning</em>, 2006
+<a href="https://lnt.xmu.edu.cn/course/53425/learning-activity/full-screen#/153613">[Online]</a></li>
+<li>孙即祥等，《模式识别》，国防工业出版社，2009 <a>[Online]</a></li>
+<li>孙学工等，《模式识别》，电子工业出版社，2010
+<a href="https://lnt.xmu.edu.cn/course/53425/learning-activity/full-screen#/153622">[Online]</a></li>
+</ul>
+<p><br><hr></p>
+<h2><strong>课程大纲</strong></h2>
+<ul>
+<li>课程简介 <a href="slides/2025-PRML-CS-XMU-0-Welcome.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part 1: 模式识别（PR）</strong></h4>
+<ul>
+<li>绪论 <a href="slides/2025-PRML-CS-XMU-1-绪论.pdf">[Slides]</a></li>
+<li>聚类分析 <a href="slides/2025-PRML-CS-XMU-2-聚类分析.pdf">[Slides]</a></li>
+<li>线性判别 <a href="slides/2025-PRML-CS-XMU-3-线性判别.pdf">[Slides]</a></li>
+<li>概率推理 &amp; 生成式学习 <a href="slides/2025-PRML-CS-XMU-4-贝叶斯决策.pdf">[Slides]</a></li>
+<li>Python动手课（一）<a href="slides/2025-PRML-CS-XMU-5-Python动手课一.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part 2: 深度学习（DL）</strong></h4>
+<ul>
+<li>深度学习基础 <a href="slides/2025-PRML-CS-XMU-6-深度学习基础.pdf">[Slides]</a></li>
+<li>深度神经网络 <a href="slides/2025-PRML-CS-XMU-7-深度神经网络.pdf">[Slides]</a></li>
+<li>各种神经网络 <a href="slides/2025-PRML-CS-XMU-8-各种神经网络.pdf">[Slides]</a></li>
+<li>模型结构与压缩 <a href="slides/2025-PRML-CS-XMU-9-模型结构和压缩.pdf">[Slides]</a></li>
+<li>Python动手课（二） <a href="slides/2025-PRML-CS-XMU-10-Python动手课二.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part 3: 通用人工智能（AGI）</strong></h4>
+<ul>
+<li>Foundation Model &amp; 大模型概述 <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+<li>GPT + Fine Tune + RAG + Agent <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+<li>AIGC &amp; 多模态大模型 <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part 4: 复习课</strong></h4>
+<ul>
+<li>复习课 <a href="slides/复习课.pdf">[Slides]</a></li>
+</ul>
+<p><br></p>
+<hr>
+<p><br></p>
+<style>
+#title {
+  text-align: center;
+}
+
+#hero img {
+  width: 100%;
+}
+</style>
+</main>
+
+    <footer id="contentinfo" class="body">
+        <address id="about" class="vcard body row">
+      <section id="thanks" class="body col-8">
+        <p>Updated 2026-08-25 23:16 from <a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a> by Longbiao Chen.</p>
+        <p> Powered by <a href="http://getpelican.com/">Pelican</a>, themed by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, composed by <a href="https://developers.openai.com/codex/">Codex</a>.</p>
+        <p style="font-style: italic;">Hic et ubique terrarum. <a href="https://beian.miit.gov.cn/">闽ICP备17012764号-4</a></p>
+      </section>
+      <section id="statistics" class="body col-3">
+        <a id="clustrmaps" href="https://clustrmaps.com/site/q1qa" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=7l4Mdbzow0nX4BJU7gSUlwajFPSqrJAZhgaMc1Usoac&cl=ffffff" alt="Visitor geographic distribution map" loading="lazy" decoding="async" /></a>
+      </section>
+      <section id="extras" class="body">
+        <!--         <div class="social">
+          <h2>social</h2>
+          <ul>
+            <li><a href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+          </ul>
+        </div><!-- /.social -->
+        <!--  -->
+      </section>
+    </address>
+        <!-- /#about -->
+
+    </footer>
+    <!-- /#contentinfo -->
+
+    <!--  -->
+</body>
+
+</html>

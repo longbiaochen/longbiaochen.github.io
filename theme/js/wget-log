@@ -1,0 +1,11 @@
+--2020-04-22 08:17:33--  https://cdn.clustrmaps.com/map_v2.js?u=2isB
+Resolving cdn.clustrmaps.com (cdn.clustrmaps.com)... 104.22.62.219, 104.22.63.219
+Connecting to cdn.clustrmaps.com (cdn.clustrmaps.com)|104.22.62.219|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘map_v2.js?u=2isB.2’
+
+map_v2.js?u=2isB.2       [<=>                 ]       0  --.-KB/s               map_v2.js?u=2isB.2       [ <=>                ]  71.20K  --.-KB/s    in 0.001s  
+
+2020-04-22 08:17:35 (53.6 MB/s) - ‘map_v2.js?u=2isB.2’ saved [72904]
+

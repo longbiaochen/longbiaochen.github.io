@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> 厦门大学普适计算课题组
+</title>
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/main.css" />     <link href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="厦门大学普适计算课题组 Atom Feed" />   <link rel="alternate" hreflang="en" href="https://longbiao.crowdsensing.cn/./team/index-en.html">
+
+    <script src="https://longbiao.crowdsensing.cn/theme/js/vue.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/axios.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/lodash.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/httpVueLoader.js"></script>
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <h1>
+ <a href="https://longbiao.crowdsensing.cn/index.html">厦门大学普适计算课题组</a>
+        </h1>
+        <div class="banner-nav-row">
+            <nav>
+<ul>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/index.html">主页</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./publications/index.html">论文</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./patents/index.html">专利</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./demo/index.html">成果</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./courses/index.html">教学</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./lectures/index.html">讲座</a>
+  </li>
+  <li  class="active" >
+    <a href="https://longbiao.crowdsensing.cn/./team/index.html">团队</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./awards/index.html">获奖</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./news/index.html">新闻</a>
+  </li>
+</ul>
+            </nav>
+<div class="nav-lang">
+  <a href="https://longbiao.crowdsensing.cn/./team/index-en.html" hreflang="en" rel="alternate">
+ English
+  </a>
+</div>
+        </div>
+    </header>
+    <!-- /#banner -->
+<main id="content" class="body">
+  <!-- <h1 class="entry-title">团队</h1> -->
+  <!--  -->
+  <!-- <a href="https://longbiao.crowdsensing.cn/./team/index-en.html" hreflang="en">en</a>
+ -->
+  <h2>优秀研究生 <a id="scholarship" /></h2>
+<ul>
+<li>2022/09: 🏅 祝贺朱航同学荣获2022年度研究生国家奖学金！</li>
+<li>2021/09: 🏅 祝贺陆晨晖同学荣获2021年度研究生国家奖学金！</li>
+<li>2021/02: 🏅 祝贺蒋之晗同学荣获2020年度研究生国家奖学金！</li>
+</ul>
+<p><br><hr></p>
+<!-- ## 愿景
+* 做有趣的研究
+<br><hr>
+ -->
+
+<div id="app">
+  <h2>博士生</h2>
+  <show-case :items="phd" :styles="styles"></show-case>
+  <br>
+  <hr>
+
+  <h2>硕士生</h2>
+  <show-case :items="master" :styles="styles"></show-case>
+  <hr>
+
+<!--   <h2>本科生</h2>
+  <show-case :items="undergraduate" :styles="styles"></show-case>
+  <br>
+  <hr>
+ -->
+
+  <h2>毕业生</h2>
+  <show-case :items="alumni" :styles="styles"></show-case>
+
+</div>
+
+<hr>
+
+<script>
+new window.Vue({
+  el: '#app',
+  components: {
+    'show-case': window.httpVueLoader('/components/show-case.vue')
+  },
+  data: {
+    styles: {
+      min_width: '160px',
+      max_width: '160px',
+      padding: '10px'
+    },    // ------------------------------
+    phd: [{
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/103/avatar.png',
+      url: 'https://changzhen.crowdsensing.cn',
+      title: '刘昌臻',
+      sub_title: '2022--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/343/avatar.png',
+      url: 'https://guofeng.crowdsensing.cn',
+      title: '罗国锋',
+      sub_title: '2023--在读',
+      desc: []
+    }],
+    // ------------------------------
+    master: [{
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/244/avatar.png',
+      url: 'https://wenting.crowdsensing.cn',
+      title: '曾雯婷',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/117/avatar.png',
+      url: 'https://junxiang.crowdsensing.cn',
+      title: '纪俊祥',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/242/avatar.png',
+      url: 'https://yunqian.crowdsensing.cn',
+      title: '李云倩',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/334/avatar.png',
+      url: 'https://yilu.crowdsensing.cn',
+      title: '孙铱璐',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/243/avatar.png',
+      url: 'https://jiaru.crowdsensing.cn',
+      title: '王佳如',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/337/avatar.png',
+      url: 'https://xiuhuai.crowdsensing.cn',
+      title: '谢秀淮',
+      sub_title: '2023--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/50/avatar.png',
+      url: 'https://hongjie.crowdsensing.cn',
+      title: '符弘杰',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/402/avatar.png',
+      url: 'https://zhenghan.crowdsensing.cn',
+      title: '廖正涵',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/405/avatar.png',
+      url: 'https://zhengquan.crowdsensing.cn',
+      title: '李政权',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/403/avatar.png',
+      url: 'https://xiaolin.crowdsensing.cn',
+      title: '苏小林',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/358/avatar.png',
+      url: 'https://xianyi.crowdsensing.cn',
+      title: '严献怡',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/351/avatar.png',
+      url: 'https://jiedong.crowdsensing.cn',
+      title: '颜杰东',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/282/avatar.png',
+      url: 'https://shiyi.crowdsensing.cn',
+      title: '张诗怡',
+      sub_title: '2024--在读',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/526/avatar.png',
+      url: 'https://xiangyun.crowdsensing.cn',
+      title: '鲜湘芸',
+      sub_title: '2025--在读',
+      desc: []
+    }],
+    // ------------------------------
+    alumni: [{
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/61/avatar.png',
+      url: 'tieqi',
+      title: '寿铁祺',
+      sub_title: '2020--2023',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/76/avatar.png',
+      url: 'jiannan',
+      title: '高健楠',
+      sub_title: '2020--2023',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/57/avatar.png',
+      url: 'ruixiang',
+      title: '罗瑞祥',
+      sub_title: '2020--2023',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/60/avatar.png',
+      url: 'hang',
+      title: '朱航',
+      sub_title: '2020--2023',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/53/avatar.png',
+      url: 'auwal',
+      title: 'Auwal Sagir MUHAMMAD',
+      sub_title: '2019--2024',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/75/avatar.png',
+      url: 'https://siyao.crowdsensing.cn',
+      title: '陈思耀',
+      sub_title: '2020--2023',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/100/avatar.png',
+      url: 'https://shiwang.crowdsensing.cn',
+      title: '黄世旺',
+      sub_title: '2021--2024',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/101/avatar.png',
+      url: 'https://qingxian.crowdsensing.cn',
+      title: '唐清仙',
+      sub_title: '2021--2024',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/137/avatar.png',
+      url: 'https://shengjie.crowdsensing.cn',
+      title: '吴圣杰',
+      sub_title: '2021--2024',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/144/avatar.png',
+      url: 'https://yayao.crowdsensing.cn',
+      title: '洪涯瑶',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/133/avatar.png',
+      url: 'https://yigao.crowdsensing.cn',
+      title: '王一高',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/68/avatar.png',
+      url: 'https://yufei.crowdsensing.cn',
+      title: '王妤妃',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/139/avatar.png',
+      url: 'https://lijuan.crowdsensing.cn',
+      title: '翁丽娟',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/145/avatar.png',
+      url: 'https://yongyi.crowdsensing.cn',
+      title: '武雍易',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/140/avatar.png',
+      url: 'https://zhuohan.crowdsensing.cn',
+      title: '叶卓涵',
+      sub_title: '2022--2025',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/22/avatar.png',
+      url: 'nengxin',
+      title: '郑能鑫',
+      sub_title: '2018--2021',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/72/avatar.png',
+      url: 'yan',
+      title: '刘妍',
+      sub_title: '硕士, 2015--2018',
+      desc: ['国家电网']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/9/avatar.png',
+      url: 'yunting',
+      title: '邵云婷',
+      sub_title: '硕士, 2017--2020',
+      desc: ['国家电网']
+    }, {
+      img: 'https://secure.gravatar.com/avatar/4aa3333e662191c3668a0468bb7404d9?s=120&d=identicon',
+      url: 'ruiying',
+      title: '郭瑞英',
+      sub_title: '硕士, 2018--2021',
+      desc: ['中国电信']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/8/avatar.png',
+      url: 'http://zhihanjiang.com',
+      title: '蒋之晗',
+      sub_title: '硕士, 2018--2021',
+      desc: ['香港大学']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/23/avatar.png',
+      url: 'jianyi',
+      title: '游建议',
+      sub_title: '硕士, 2018--2021',
+      desc: ['中国人民银行']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/36/avatar.png',
+      url: 'xiaohai',
+      title: '蔡晓海',
+      sub_title: '腾讯科技',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/52/avatar.png',
+      url: 'xin',
+      title: '何昕',
+      sub_title: '国家电网',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/39/avatar.png',
+      url: 'zhiming',
+      title: '林志铭',
+      sub_title: '兴业银行',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/42/avatar.png',
+      url: 'chenhui',
+      title: '陆晨晖',
+      sub_title: '兴业银行',
+      desc: []
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/49/avatar.png',
+      url: 'wenxuan',
+      title: '魏文轩',
+      sub_title: '阿里巴巴',
+      desc: []      
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/3/avatar.png',
+      url: 'linjin',
+      title: '刘林津',
+      sub_title: '学士, 2014--2018',
+      desc: ['厦门航空']
+    }, {
+      img: 'https://secure.gravatar.com/avatar?s=120&d=identicon',
+      url: 'yiyang',
+      title: '赖伊扬',
+      sub_title: '学士, 2014--2018',
+      desc: ['数字广东']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/21/avatar.png',
+      url: 'jingchun',
+      title: '黄靖淳',
+      sub_title: '学士, 2016--2020',
+      desc: ['出国读研']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/28/avatar.png',
+      url: 'tianqi',
+      title: '谢天琦',
+      sub_title: '学士, 2016--2020',
+      desc: ['出国读研']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/32/avatar.png',
+      url: 'https://zzhiyuann.cn/',
+      title: '王志源',
+      sub_title: '学士, 2017--2021',
+      desc: ['出国读研']
+    }, {
+      img: 'https://secure.gravatar.com/avatar?s=120&d=identicon',
+      url: 'hong',
+      title: '洪虹',
+      sub_title: '学士, 2017--2021',
+      desc: ['出国读研']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/79/avatar.png',
+      url: 'fangxu',
+      title: '袁方旭',
+      sub_title: '学士, 2017--2021',
+      desc: ['出国读研']
+    }, {
+      img: 'https://gitlab.crowdsensing.cn/uploads/-/system/user/avatar/62/avatar.png',
+      url: 'zeyu',
+      title: '王泽宇',
+      sub_title: '学士, 2018--2022',
+      desc: ['出国读研']
+    }]
+  }
+})
+</script>
+</main>
+
+    <footer id="contentinfo" class="body">
+        <address id="about" class="vcard body row">
+      <section id="thanks" class="body col-8">
+        <p>Updated 2026-08-25 23:16 from <a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a> by Longbiao Chen.</p>
+        <p> Powered by <a href="http://getpelican.com/">Pelican</a>, themed by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, composed by <a href="https://developers.openai.com/codex/">Codex</a>.</p>
+        <p style="font-style: italic;">Hic et ubique terrarum. <a href="https://beian.miit.gov.cn/">闽ICP备17012764号-4</a></p>
+      </section>
+      <section id="statistics" class="body col-3">
+        <a id="clustrmaps" href="https://clustrmaps.com/site/q1qa" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=7l4Mdbzow0nX4BJU7gSUlwajFPSqrJAZhgaMc1Usoac&cl=ffffff" alt="Visitor geographic distribution map" loading="lazy" decoding="async" /></a>
+      </section>
+      <section id="extras" class="body">
+        <!--         <div class="social">
+          <h2>social</h2>
+          <ul>
+            <li><a href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+          </ul>
+        </div><!-- /.social -->
+        <!--  -->
+      </section>
+    </address>
+        <!-- /#about -->
+
+    </footer>
+    <!-- /#contentinfo -->
+
+    <!--  -->
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> XMU Ubiquitous Computing Group
+</title>
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/main.css" />     <link href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="厦门大学普适计算课题组 Atom Feed" />   <link rel="alternate" hreflang="zh-cn" href="https://longbiao.crowdsensing.cn/./courses/prml/index.html">
+
+    <script src="https://longbiao.crowdsensing.cn/theme/js/vue.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/axios.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/lodash.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/httpVueLoader.js"></script>
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <h1>
+ <a href="https://longbiao.crowdsensing.cn/index-en.html">XMU Ubiquitous Computing Group</a>
+        </h1>
+        <div class="banner-nav-row">
+            <nav>
+<ul>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/index-en.html">Home</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./publications/index-en.html">Publications</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./patents/index-en.html">Patents</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./demo/index-en.html">Demo</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./courses/index-en.html">Teaching</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./team/index-en.html">Team</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./awards/index-en.html">Awards</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./news/index-en.html">News</a>
+  </li>
+</ul>
+            </nav>
+<div class="nav-lang">
+  <a href="https://longbiao.crowdsensing.cn/./courses/prml/index.html" hreflang="zh-cn" rel="alternate">
+ 中文
+  </a>
+</div>
+        </div>
+    </header>
+    <!-- /#banner -->
+<main id="content" class="body">
+  <!-- <h1 class="entry-title">Pattern Recognition</h1> -->
+  <!--  -->
+  <!-- <a href="https://longbiao.crowdsensing.cn/./courses/prml/index.html" hreflang="zh-cn">zh-cn</a>
+ -->
+  <h1 id="title">Pattern Recognition</h1>
+<div id="hero" class="text-center">
+  <img src="/courses/prml/figures/banner.jpg" class="rounded">
+</div>
+
+<p><br></p>
+<h2><strong>Course Overview</strong></h2>
+<p>Pattern recognition studies how computational methods can identify, classify, and interpret patterns in data. Designed for second- and third-year undergraduates, this course introduces the core concepts, terminology, workflow, methods, history, and current development of pattern recognition. It progresses from classical pattern recognition to deep learning and concludes with foundation models and large language models. Hands-on tutorials connect the underlying principles to practical machine-learning projects and prepare students for further study and research in artificial intelligence.</p>
+<p><br></p>
+<h2><strong>Time and Venue</strong></h2>
+<ul>
+<li><strong>Time:</strong> Weeks 1--16, Thursday periods 7--8 (16:40--18:20)</li>
+<li><strong>Venue:</strong> Room C201, Xuewu Building, Xiang'an Campus</li>
+</ul>
+<p><br></p>
+<h2><strong>Assessment</strong></h2>
+<ul>
+<li><strong>Coursework (20%):</strong> attendance, classroom participation, and assignments</li>
+<li><strong>Course project (30%):</strong> an individual project and a product requirements document; see the course slides for details</li>
+<li><strong>Final examination (50%):</strong> closed-book written examination in the final week</li>
+</ul>
+<p><br></p>
+<h2><strong>Course Project: An LLM-Powered AI Course Assistant</strong></h2>
+<h4><strong>Goal</strong></h4>
+<ul>
+<li>Develop an intelligent course assistant that analyzes video content in real time and provides personalized explanations and question answering.</li>
+<li>The system should include a course-video player and an “I don't understand” action that analyzes the current segment, explains it, and supports follow-up dialogue.</li>
+</ul>
+<h4><strong>Module Tracks</strong></h4>
+<ul>
+<li><strong>Track A — Front-end interaction:</strong> video player and timeline synchronization, dynamic triggering of the “I don't understand” action, and visualization of analysis results</li>
+<li><strong>Track B — Back-end services:</strong> video metadata management, contextual-segment extraction APIs, and result caching</li>
+<li><strong>Track C — Model processing:</strong> video summarization, contextual analysis of questions, and multimodal response generation</li>
+<li><strong>Track D — Data engineering:</strong> course-video segmentation, knowledge-graph construction, and learning-behavior log analysis</li>
+<li><strong>Track E — Extended features:</strong> voice questions, screenshot-based question answering, and learning-progress analytics</li>
+</ul>
+<h4><strong>PRD Requirements</strong></h4>
+<ul>
+<li><strong>Background and objective:</strong> locate the module within the system architecture and define the problem it addresses</li>
+<li><strong>Requirements analysis:</strong> specify functional requirements and proposed strategies</li>
+<li><strong>Technical design:</strong> describe the core technical approach and implementation path</li>
+<li><strong>Innovation:</strong> present original ideas and explain their value</li>
+<li><strong>Demo:</strong> include a concrete demonstration, such as interface mock-ups or screenshots, to make the proposal feasible and understandable</li>
+</ul>
+<h4><strong>Submission</strong></h4>
+<ul>
+<li><strong>Deadline:</strong> 23:59, June 22, 2025</li>
+<li><strong>Deliverable:</strong> product requirements document</li>
+<li><strong>Platform:</strong> Xiamen University Digital Teaching Platform (<code>course.xmu.edu.cn</code>)</li>
+</ul>
+<p><br></p>
+<h2><strong>Textbooks and References</strong></h2>
+<ul>
+<li>Christopher M. Bishop, <em>Pattern Recognition and Machine Learning</em>, 2006. <a href="https://lnt.xmu.edu.cn/course/53425/learning-activity/full-screen#/153613">[Online]</a></li>
+<li>Jixiang Sun et al., <em>Pattern Recognition</em>, National Defense Industry Press, 2009.</li>
+<li>Xuegong Sun et al., <em>Pattern Recognition</em>, Publishing House of Electronics Industry, 2010. <a href="https://lnt.xmu.edu.cn/course/53425/learning-activity/full-screen#/153622">[Online]</a></li>
+</ul>
+<p><br><hr></p>
+<h2><strong>Course Outline</strong></h2>
+<ul>
+<li>Course introduction <a href="slides/2025-PRML-CS-XMU-0-Welcome.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part I: Pattern Recognition (PR)</strong></h4>
+<ul>
+<li>Introduction <a href="slides/2025-PRML-CS-XMU-1-绪论.pdf">[Slides]</a></li>
+<li>Cluster analysis <a href="slides/2025-PRML-CS-XMU-2-聚类分析.pdf">[Slides]</a></li>
+<li>Linear discriminant analysis <a href="slides/2025-PRML-CS-XMU-3-线性判别.pdf">[Slides]</a></li>
+<li>Probabilistic inference and generative learning <a href="slides/2025-PRML-CS-XMU-4-贝叶斯决策.pdf">[Slides]</a></li>
+<li>Python hands-on session I <a href="slides/2025-PRML-CS-XMU-5-Python动手课一.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part II: Deep Learning (DL)</strong></h4>
+<ul>
+<li>Foundations of deep learning <a href="slides/2025-PRML-CS-XMU-6-深度学习基础.pdf">[Slides]</a></li>
+<li>Deep neural networks <a href="slides/2025-PRML-CS-XMU-7-深度神经网络.pdf">[Slides]</a></li>
+<li>Neural-network architectures <a href="slides/2025-PRML-CS-XMU-8-各种神经网络.pdf">[Slides]</a></li>
+<li>Model architectures and compression <a href="slides/2025-PRML-CS-XMU-9-模型结构和压缩.pdf">[Slides]</a></li>
+<li>Python hands-on session II <a href="slides/2025-PRML-CS-XMU-10-Python动手课二.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part III: General Artificial Intelligence (AGI)</strong></h4>
+<ul>
+<li>Foundation models and large language models <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+<li>GPT, fine-tuning, retrieval-augmented generation, and agents <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+<li>AI-generated content and multimodal large language models <a href="slides/2025-PRML-CS-XMU-Transformer.pdf">[Slides]</a></li>
+</ul>
+<h4><strong>Part IV: Review</strong></h4>
+<ul>
+<li>Course review <a href="slides/复习课.pdf">[Slides]</a></li>
+</ul>
+<p><br></p>
+<hr>
+<p><br></p>
+<style>
+#title {
+  text-align: center;
+}
+
+#hero img {
+  width: 100%;
+}
+</style>
+</main>
+
+    <footer id="contentinfo" class="body">
+        <address id="about" class="vcard body row">
+      <section id="thanks" class="body col-8">
+        <p>Updated 2026-08-25 23:16 from <a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a> by Longbiao Chen.</p>
+        <p> Powered by <a href="http://getpelican.com/">Pelican</a>, themed by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, composed by <a href="https://developers.openai.com/codex/">Codex</a>.</p>
+        <p style="font-style: italic;">Hic et ubique terrarum. <a href="https://beian.miit.gov.cn/">闽ICP备17012764号-4</a></p>
+      </section>
+      <section id="statistics" class="body col-3">
+        <a id="clustrmaps" href="https://clustrmaps.com/site/q1qa" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=7l4Mdbzow0nX4BJU7gSUlwajFPSqrJAZhgaMc1Usoac&cl=ffffff" alt="Visitor geographic distribution map" loading="lazy" decoding="async" /></a>
+      </section>
+      <section id="extras" class="body">
+        <!--         <div class="social">
+          <h2>social</h2>
+          <ul>
+            <li><a href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+          </ul>
+        </div><!-- /.social -->
+        <!--  -->
+      </section>
+    </address>
+        <!-- /#about -->
+
+    </footer>
+    <!-- /#contentinfo -->
+
+    <!--  -->
+</body>
+
+</html>

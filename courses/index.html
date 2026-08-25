@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> 厦门大学普适计算课题组
+</title>
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/main.css" />     <link href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="厦门大学普适计算课题组 Atom Feed" />   <link rel="alternate" hreflang="en" href="https://longbiao.crowdsensing.cn/./courses/index-en.html">
+
+    <script src="https://longbiao.crowdsensing.cn/theme/js/vue.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/axios.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/lodash.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/httpVueLoader.js"></script>
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <h1>
+ <a href="https://longbiao.crowdsensing.cn/index.html">厦门大学普适计算课题组</a>
+        </h1>
+        <div class="banner-nav-row">
+            <nav>
+<ul>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/index.html">主页</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./publications/index.html">论文</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./patents/index.html">专利</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./demo/index.html">成果</a>
+  </li>
+  <li  class="active" >
+    <a href="https://longbiao.crowdsensing.cn/./courses/index.html">教学</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./lectures/index.html">讲座</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./team/index.html">团队</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./awards/index.html">获奖</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./news/index.html">新闻</a>
+  </li>
+</ul>
+            </nav>
+<div class="nav-lang">
+  <a href="https://longbiao.crowdsensing.cn/./courses/index-en.html" hreflang="en" rel="alternate">
+ English
+  </a>
+</div>
+        </div>
+    </header>
+    <!-- /#banner -->
+<main id="content" class="body">
+  <!-- <h1 class="entry-title">教学</h1> -->
+  <!--  -->
+  <!-- <a href="https://longbiao.crowdsensing.cn/./courses/index-en.html" hreflang="en">en</a>
+ -->
+  <h2>教改项目</h2>
+<ul>
+<li>《机器学习》，福建省研究生教育精品课程 <a href="https://jyt.fujian.gov.cn/xxgk/gggs/202412/t20241205_6588297.htm">[公示链接]</a> <a href="https://mp.weixin.qq.com/s/qWqKhOx6O-gGZsbK2M3kgA">[报道链接]</a>，2024</li>
+<li>《软件工程》，教育部“智能基座”产教融合协同育人基地项目，2020</li>
+<li>《软件体系结构与应用开发》，中央高校教学改革支持项目，2019</li>
+<li>华为云计算先锋教师 <a href="files/华为云计算先锋教师.pdf">[证书]</a>，2020-2025</li>
+</ul>
+<div id="app">
+  <ul> 
+  </ul>
+  <br><hr>
+  <h2>中文课程</h2>
+  <show-case :items="zh" :styles="styles"></show-case>
+  <br><hr>
+  <h2>英文课程</h2>
+  <show-case :items="en" :styles="styles"></show-case>
+</div>
+
+<script>
+new window.Vue({
+  el: '#app',
+  components: {
+    'show-case': window.httpVueLoader('/components/show-case.vue')
+  },
+  data: {
+    styles: {
+      padding: '10px',
+      max_width: '30%'
+    },
+    zh: [
+    {
+      id: 1,
+      img: '/courses/sofa/figures/logo.png',
+      url: 'sofa/index.html',
+      title: '软件工程',
+      sub_title: 'Fall 2024',
+      desc: ['软件工程理论与实践'],
+      button: '课程主页'
+    }, {
+      id: 2,
+      img: '/courses/prml/figures/logo.png',
+      url: 'prml/index.html',
+      title: '模式识别',
+      sub_title: 'Spring 2025',
+      desc: ['模式识别、深度学习与大语言模型（with 王程教授）'],
+      button: '课程主页'
+    }, {
+      id: 3,
+      img: '/courses/scad/figures/logo.png',
+      url: 'scad/index.html',
+      title: '软件体系结构',
+      sub_title: 'Spring 2019',
+      desc: ['软件体系结构与应用开发'],
+      button: '课程主页'
+    }],
+    en: [
+    {
+      id: 4,
+      img: '/courses/dm/figures/logo.png',
+      url: 'dm/index.html',
+      title: '数据挖掘',
+      sub_title: 'Spring 2017',
+      desc: ['@厦门大学马来西亚分校'],
+      button: '课程主页'
+    }, {
+      id: 5,
+      img: '/courses/hci/figures/logo.png',
+      url: 'hci/index.html',
+      title: '人机交互',
+      sub_title: 'Spring 2018',
+      desc: ['人机交互界面设计'],
+      button: '课程主页'
+    }]
+  }
+})
+</script>
+</main>
+
+    <footer id="contentinfo" class="body">
+        <address id="about" class="vcard body row">
+      <section id="thanks" class="body col-8">
+        <p>Updated 2026-08-25 23:16 from <a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a> by Longbiao Chen.</p>
+        <p> Powered by <a href="http://getpelican.com/">Pelican</a>, themed by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, composed by <a href="https://developers.openai.com/codex/">Codex</a>.</p>
+        <p style="font-style: italic;">Hic et ubique terrarum. <a href="https://beian.miit.gov.cn/">闽ICP备17012764号-4</a></p>
+      </section>
+      <section id="statistics" class="body col-3">
+        <a id="clustrmaps" href="https://clustrmaps.com/site/q1qa" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=7l4Mdbzow0nX4BJU7gSUlwajFPSqrJAZhgaMc1Usoac&cl=ffffff" alt="Visitor geographic distribution map" loading="lazy" decoding="async" /></a>
+      </section>
+      <section id="extras" class="body">
+        <!--         <div class="social">
+          <h2>social</h2>
+          <ul>
+            <li><a href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+          </ul>
+        </div><!-- /.social -->
+        <!--  -->
+      </section>
+    </address>
+        <!-- /#about -->
+
+    </footer>
+    <!-- /#contentinfo -->
+
+    <!--  -->
+</body>
+
+</html>

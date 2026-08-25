@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> XMU Ubiquitous Computing Group
+</title>
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://longbiao.crowdsensing.cn/theme/css/main.css" />     <link href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="厦门大学普适计算课题组 Atom Feed" />   <link rel="alternate" hreflang="zh-cn" href="https://longbiao.crowdsensing.cn/./demo/index.html">
+
+    <script src="https://longbiao.crowdsensing.cn/theme/js/vue.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/axios.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/lodash.js"></script>
+    <script src="https://longbiao.crowdsensing.cn/theme/js/httpVueLoader.js"></script>
+</head>
+
+<body id="index" class="home">
+    <header id="banner" class="body">
+        <h1>
+ <a href="https://longbiao.crowdsensing.cn/index-en.html">XMU Ubiquitous Computing Group</a>
+        </h1>
+        <div class="banner-nav-row">
+            <nav>
+<ul>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/index-en.html">Home</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./publications/index-en.html">Publications</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./patents/index-en.html">Patents</a>
+  </li>
+  <li  class="active" >
+    <a href="https://longbiao.crowdsensing.cn/./demo/index-en.html">Demo</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./courses/index-en.html">Teaching</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./team/index-en.html">Team</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./awards/index-en.html">Awards</a>
+  </li>
+  <li >
+    <a href="https://longbiao.crowdsensing.cn/./news/index-en.html">News</a>
+  </li>
+</ul>
+            </nav>
+<div class="nav-lang">
+  <a href="https://longbiao.crowdsensing.cn/./demo/index.html" hreflang="zh-cn" rel="alternate">
+ 中文
+  </a>
+</div>
+        </div>
+    </header>
+    <!-- /#banner -->
+<main id="content" class="body">
+  <!-- <h1 class="entry-title">Demo</h1> -->
+  <!--  -->
+  <!-- <a href="https://longbiao.crowdsensing.cn/./demo/index.html" hreflang="zh-cn">zh-cn</a>
+ -->
+  <div id="app">
+  <show-case :items="items" :styles="styles"></show-case>
+</div>
+
+<script>
+new window.Vue({
+  el: '#app',
+  components: {
+    'show-case': window.httpVueLoader('/components/show-case.vue')
+  },
+  data: {
+    styles: {
+      padding: '10px',
+      max_width: '30%'
+    },
+    items: [
+      {
+        id: 1,
+        img: 'images/brain.png',
+        url: 'brain/index-en.html',
+        title: 'Brain–Computer Interfaces and Embodied Intelligence',
+        button: 'Open category'
+      },
+      {
+        id: 2,
+        img: 'images/crowd.png',
+        url: 'crowd/index-en.html',
+        title: 'Crowd Embodied Intelligence Simulator',
+        button: 'Open category'
+      },
+      {
+        id: 3,
+        img: 'images/health.png',
+        url: 'health/index-en.html',
+        title: 'Ubiquitous Health and Healthcare Systems',
+        button: 'Open category'
+      }
+    ]
+  }
+})
+</script>
+</main>
+
+    <footer id="contentinfo" class="body">
+        <address id="about" class="vcard body row">
+      <section id="thanks" class="body col-8">
+        <p>Updated 2026-08-25 23:16 from <a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a> by Longbiao Chen.</p>
+        <p> Powered by <a href="http://getpelican.com/">Pelican</a>, themed by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, composed by <a href="https://developers.openai.com/codex/">Codex</a>.</p>
+        <p style="font-style: italic;">Hic et ubique terrarum. <a href="https://beian.miit.gov.cn/">闽ICP备17012764号-4</a></p>
+      </section>
+      <section id="statistics" class="body col-3">
+        <a id="clustrmaps" href="https://clustrmaps.com/site/q1qa" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=7l4Mdbzow0nX4BJU7gSUlwajFPSqrJAZhgaMc1Usoac&cl=ffffff" alt="Visitor geographic distribution map" loading="lazy" decoding="async" /></a>
+      </section>
+      <section id="extras" class="body">
+        <!--         <div class="social">
+          <h2>social</h2>
+          <ul>
+            <li><a href="https://longbiao.crowdsensing.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+          </ul>
+        </div><!-- /.social -->
+        <!--  -->
+      </section>
+    </address>
+        <!-- /#about -->
+
+    </footer>
+    <!-- /#contentinfo -->
+
+    <!--  -->
+</body>
+
+</html>
