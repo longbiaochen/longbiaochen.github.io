@@ -8423,6 +8423,69 @@
       "DOI": "10.1177/20552076261416336",
       "volume": "12",
       "publicationTitle": "Digital Health"
+    },
+    {
+      "version": 1,
+      "itemType": "journalArticle",
+      "series": "BIB",
+      "date": "2025",
+      "title": "Chrombus-XMBD: a graph convolution model predicting 3D-genome from chromatin features",
+      "creators": [
+        {
+          "firstName": "Yuanyuan",
+          "lastName": "Zeng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhiyu",
+          "lastName": "You",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jiayang",
+          "lastName": "Guo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jialin",
+          "lastName": "Zhao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ying",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jialiang",
+          "lastName": "Huang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xiaowen",
+          "lastName": "Lyu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Longbiao",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Qiyuan",
+          "lastName": "Li",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "attachments": [],
+      "uri": "http://zotero.org/users/local/items/1136dc0f-aae2-4a7b-9016-ba960a72d628",
+      "url": "https://doi.org/10.1093/bib/bbaf183",
+      "DOI": "10.1093/bib/bbaf183",
+      "volume": "26",
+      "issue": "3",
+      "publicationTitle": "Briefings in Bioinformatics"
     }
   ]
 }
